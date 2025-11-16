@@ -1,0 +1,154 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: min(680px, 94vw);
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0 0 12px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.controls button[type="button"] {
+  grid-column: span 2;
+}
+
+.status {
+  min-height: 1.2em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card {
+  border: 1px solid #eef0f5;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.wxicon {
+  width: 96px;
+  height: 96px;
+}
+
+.temp {
+  font-size: 2.4rem;
+}
+
+.toggle {
+  margin-left: 10px;
+}
+
+.meta {
+  color: #444;
+  line-height: 1.5;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #d7dbe6;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2f6fed;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.95);
+}
+
+/* Forecast section */
+.section-title {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.forecast-day {
+  border: 1px solid #eef0f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.weekday {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.wxicon.small {
+  width: 64px;
+  height: 64px;
+}
+
+.hi-lo {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+.hi {
+  font-weight: 700;
+}
+
+.lo {
+  color: #555;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #444;
+  min-height: 2.2em;
+}
+
+@media (max-width: 560px) {
+  .forecast-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
