@@ -6,4 +6,4 @@ ColesterBoyFlex: Back and front end developer.
 
 (A group project for Fall 2025 - Introduction to Software Engineering, Georgia Southern University)
 
-Link: https://easy-weather-rho.vercel.app/
+Link: https://easy-weather-xi.vercel.app/
