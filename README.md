@@ -1,9 +1,9 @@
 # EasyWeather
 A simple, easy to use weather web application that is light on CPU and memory. Can be used on both desktop and mobile.
 
-Dalton Hall (Tabtes-Ion): Lead director and tester, back and front end developer.
-ColesterBoyFlex: Back and front end developer.
+Dalton Hall (Tabtes-Ion): Project Lead, QA Tester, and Full-stack Developer.
+ColesterBoyFlex: Full-stack Developer.
 
-(A group project for Fall 2025 - Introduction to Software Engineering, Georgia Southern University)
+(Developed for Introduction to Software Engineering, Fall 2025, Georgia Southern University)
 
-Link: https://easy-weather-xi.vercel.app/
+https://easy-weather-xi.vercel.app/
